@@ -1,27 +1,41 @@
-# MusicFinder
+# 🎵 Music Finder App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+A simple music search application where users can search for songs or artists and listen to short audio previews.  
+Built with **Angular** and styled with **SCSS**, the app provides a clean and responsive UI for discovering music.  
 
-## Development server
+👉 **Live Demo**: [Music Finder on Netlify](https://music-app-lists.netlify.app/music)  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Tech Stack
+- Angular  
+- TypeScript  
+- HTML5, CSS3, SCSS  
+- REST API integration (e.g. Deezer API)  
+- Responsive design  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## ✨ Features
+- 🔍 Search for songs or artists in real-time  
+- 🖼️ Displays album art, song title, and artist name  
+- ▶️ Play 30-second audio previews directly in the app  
+- 📱 Responsive layout for desktop and mobile  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📸 Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<img width="1075" height="712" alt="image" src="https://github.com/user-attachments/assets/82c9c78e-0e39-40b3-a2f7-c86c5877e80f" />
+ 
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠️ Setup & Run Locally
+Clone the repository and install dependencies:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/rishma123/music-finder.git
+cd music-finder
+npm install
+ng serve
