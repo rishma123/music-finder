@@ -1,0 +1,9 @@
+<h2>🎵 Music Finder</h2>
+<app-search (search)="handleSearch($event)"></app-search>
+
+<div *ngIf="loading">Loading...</div>
+
+<div *ngIf="songs.length">
+  <app-song-card *ngFor="let song of songs" [song]="song"></app-song-card>
+</div>
+

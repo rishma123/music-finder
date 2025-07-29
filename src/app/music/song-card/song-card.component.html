@@ -1,0 +1,7 @@
+<div class="song-card">
+  <img [src]="song.artworkUrl100" alt="{{ song.trackName }}" />
+  <p><strong>{{ song.trackName }}</strong></p>
+  <p>{{ song.artistName }}</p>
+  <audio [src]="song.previewUrl" controls></audio>
+</div>
+

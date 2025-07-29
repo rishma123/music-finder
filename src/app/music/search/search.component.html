@@ -1,0 +1,8 @@
+<form (submit)="onSearch()" autocomplete="off">
+  <input
+    [(ngModel)]="searchTerm" class="search-input"
+    name="search"
+    placeholder="Search songs..."
+  /> 
+  <button type="submit" class="search-button">Search</button>
+</form>
